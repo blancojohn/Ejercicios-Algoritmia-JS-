@@ -5,9 +5,10 @@ let person= {
 
 function addFullNameProperty(obj) {
   // Add your code after this line
-  objfullName= `${obj.firstName} ${obj.lastName}`
+  obj.fullName= `${obj.firstName} ${obj.lastName}`
   return obj
 }
 
-addFullNameProperty(person)
+let prueba= addFullNameProperty(person)
+console.log(prueba)
 console.log(person.fullName)
